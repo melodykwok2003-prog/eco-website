@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>守護地球 · 環保知識平台 | Protect Our Planet</title>
+    <meta name="description" content="一個致力於提高公眾環保意識的知識平台，涵蓋氣候變化、生物多樣性、污染防治、可持續發展等環保主題。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700;900&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== Navigation ===== -->
+<nav id="navbar">
+    <div class="nav-container">
+        <a href="#hero" class="nav-logo">
+            <span class="logo-icon">🌍</span>
+            <span class="logo-text">守護地球</span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="選單">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="#hero">首頁</a></li>
+            <li><a href="#topics">環保知識</a></li>
+            <li><a href="#climate">氣候變化</a></li>
+            <li><a href="#biodiversity">生物多樣性</a></li>
+            <li><a href="#pollution">污染防治</a></li>
+            <li><a href="#sustainability">可持續發展</a></li>
+            <li><a href="#actions">行動指南</a></li>
+            <li><a href="#quiz">知識測驗</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- ===== Hero Section ===== -->
+<section id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1 class="hero-title"><span>守護綠水青山</span><br>共建美好家園</h1>
+        <p class="hero-subtitle">Protect Our Planet · For a Better Tomorrow</p>
+        <p class="hero-desc">地球是我們唯一的家園。瞭解環境問題，掌握環保知識，從今天開始行動。</p>
+        <div class="hero-buttons">
+            <a href="#topics" class="btn btn-primary">探索環保知識</a>
+            <a href="#actions" class="btn btn-outline">立即行動</a>
+        </div>
+    </div>
+    <div class="hero-stats">
+        <div class="stat-item">
+            <span class="stat-number" data-target="1.5">0</span>
+            <span class="stat-unit">°C</span>
+            <span class="stat-label">全球升溫已達</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number" data-target="8">0</span>
+            <span class="stat-unit">百萬噸</span>
+            <span class="stat-label">每年塑料流入海洋</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number" data-target="68">0</span>
+            <span class="stat-unit">%</span>
+            <span class="stat-label">野生動物種群下降</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number" data-target="27">0</span>
+            <span class="stat-unit">%</span>
+            <span class="stat-label">全球碳排放可減少</span>
+        </div>
+    </div>
+    <div class="scroll-hint">向下探索</div>
+</section>
+
+<!-- ===== Topics Overview ===== -->
+<section id="topics" class="section section-light">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">環保知識</span>
+            <h2 class="section-title">認識我們面臨的環境挑戰</h2>
+            <p class="section-desc">環境問題與每個人息息相關。點擊下方主題，深入瞭解當前全球面臨的主要環境挑戰。</p>
+        </div>
+        <div class="topics-grid">
+            <a href="#climate" class="topic-card topic-climate">
+                <div class="topic-icon">🌡️</div>
+                <h3>氣候變化</h3>
+                <p>全球變暖、極端天氣頻發，溫室氣體排放正改變著地球的面貌。</p>
+                <span class="topic-link">深入瞭解 →</span>
+            </a>
+            <a href="#biodiversity" class="topic-card topic-biodiversity">
+                <div class="topic-icon">🦋</div>
+                <h3>生物多樣性</h3>
+                <p>物種滅絕速度加快，生態系統面臨前所未有的壓力與威脅。</p>
+                <span class="topic-link">深入瞭解 →</span>
+            </a>
+            <a href="#pollution" class="topic-card topic-pollution">
+                <div class="topic-icon">🏭</div>
+                <h3>污染防治</h3>
+                <p>空氣、水體和土壤污染持續影響人類健康與自然環境。</p>
+                <span class="topic-link">深入瞭解 →</span>
+            </a>
+            <a href="#sustainability" class="topic-card topic-sustainability">
+                <div class="topic-icon">♻️</div>
+                <h3>可持續發展</h3>
+                <p>綠色生活、循環經濟，在發展與保護之間找到平衡之路。</p>
+                <span class="topic-link">深入瞭解 →</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Climate Change Section ===== -->
+<section id="climate" class="section section-tinted">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">主題一</span>
+            <h2 class="section-title">氣候變化</h2>
+            <p class="section-desc">氣候變化是當代人類面臨的最嚴峻挑戰之一，科學數據清楚地告訴我們：行動刻不容緩。</p>
+        </div>
+
+        <div class="content-block">
+            <div class="content-text">
+                <h3>什麼是氣候變化？</h3>
+                <p>氣候變化是指地球長期氣候模式的顯著改變，主要表現為<strong>全球平均氣溫持續上升</strong>。自工業革命以來，人類活動——尤其是燃燒化石燃料（煤、石油、天然氣）——大量排放溫室氣體（二氧化碳、甲烷、一氧化二氮等），在大氣中形成「溫室效應」，導致地球表面溫度不斷攀升。</p>
+                <p>根據聯合國政府間氣候變化專門委員會（IPCC）的報告，全球平均氣溫已較工業化前水平上升了約 <strong>1.1°C</strong>，若不採取有效行動，本世紀末升溫可能達到 <strong>3°C 以上</strong>，將帶來災難性後果。</p>
+            </div>
+            <div class="content-visual">
+                <div class="info-card">
+                    <div class="info-card-header" style="background: linear-gradient(135deg, #e74c3c, #c0392b);">
+                        <span>📊 關鍵數據</span>
+                    </div>
+                    <div class="info-card-body">
+                        <ul class="data-list">
+                            <li><span class="data-value">421 ppm</span><span class="data-label">大氣CO₂濃度（2023年）</span></li>
+                            <li><span class="data-value">+1.1°C</span><span class="data-label">較工業化前升溫</span></li>
+                            <li><span class="data-value">2050</span><span class="data-label">碳中和目標年份</span></li>
+                            <li><span class="data-value">1.5°C</span><span class="data-label">巴黎協定控溫目標</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="impact-grid">
+            <h3 class="impact-title">氣候變化的主要影響</h3>
+            <div class="impact-cards">
+                <div class="impact-card">
+                    <div class="impact-icon">🌊</div>
+                    <h4>海平面上升</h4>
+                    <p>冰川融化導致全球海平面每年上升約 3.4 毫米，威脅沿海城市與島嶼國家。</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">🌪️</div>
+                    <h4>極端天氣</h4>
+                    <p>颱風、洪水、乾旱等極端天氣事件更加頻繁和強烈，造成巨大經濟損失。</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">🔥</div>
+                    <h4>森林大火</h4>
+                    <p>乾旱和高溫使森林火災更加頻繁，破壞生態系統並釋放更多碳。</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">🌾</div>
+                    <h4>糧食安全</h4>
+                    <p>氣候異常影響農作物產量，全球糧食安全面臨嚴峻考驗。</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="callout callout-warning">
+            <div class="callout-icon">⚠️</div>
+            <div class="callout-content">
+                <h4>關鍵事實</h4>
+                <p>若全球升溫超過 1.5°C，將觸發不可逆轉的氣候「臨界點」——包括格陵蘭冰蓋崩塌、亞馬遜雨林退化為草原、永久凍土大量釋放甲烷等。我們只剩約 <strong>7年</strong> 的時間來扭轉這一趨勢。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Biodiversity Section ===== -->
+<section id="biodiversity" class="section section-light">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">主題二</span>
+            <h2 class="section-title">生物多樣性</h2>
+            <p class="section-desc">生物多樣性是地球生命維持系統的基礎，但正面臨前所未有的危機。</p>
+        </div>
+
+        <div class="content-block">
+            <div class="content-visual">
+                <div class="info-card">
+                    <div class="info-card-header" style="background: linear-gradient(135deg, #27ae60, #1e8449);">
+                        <span>🦜 物種危機</span>
+                    </div>
+                    <div class="info-card-body">
+                        <ul class="data-list">
+                            <li><span class="data-value">~1百萬</span><span class="data-label">面臨滅絕的物種</span></li>
+                            <li><span class="data-value">68%</span><span class="data-label">1970年以來野生動物種群下降</span></li>
+                            <li><span class="data-value">75%</span><span class="data-label">陸地環境受人類影響</span></li>
+                            <li><span class="data-value">~40%</span><span class="data-label">海洋受嚴重污染</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content-text">
+                <h3>為什麼生物多樣性如此重要？</h3>
+                <p>生物多樣性指地球上各種生命形式的多樣性，包括<strong>基因多樣性、物種多樣性和生態系統多樣性</strong>。它為人類提供食物、藥物、清潔空氣和水等基本生存資源，同時維持生態系統的穩定與平衡。</p>
+                <p>然而，人類活動——棲息地破壞、過度開發、污染、外來物種入侵和氣候變化——正以前所未有的速度侵蝕生物多樣性。科學家估計，當前物種滅絕的速度是自然背景滅絕率的 <strong>100至1000倍</strong>。</p>
+                <p>世界自然基金會（WWF）的報告顯示，自 1970 年以來，全球野生脊椎動物種群數量平均下降了 <strong>68%</strong>，淡水物種甚至下降了 <strong>84%</strong>。這不僅是自然界的損失，更直接威脅人類的生存基礎。</p>
+            </div>
+        </div>
+
+        <div class="biodiversity-layers">
+            <h3 class="impact-title">生物多樣性的三個層次</h3>
+            <div class="layer-cards">
+                <div class="layer-card">
+                    <div class="layer-number">01</div>
+                    <h4>基因多樣性</h4>
+                    <p>同一物種內個體間的基因差異，是物種適應環境變化的基礎。基因多樣性越高，物種面對疾病和環境變化的抵抗力越強。</p>
+                </div>
+                <div class="layer-card">
+                    <div class="layer-number">02</div>
+                    <h4>物種多樣性</h4>
+                    <p>特定區域內物種的數量和豐富度。地球上已知的物種約有 870 萬種，但仍有大量物種尚未被發現和描述。</p>
+                </div>
+                <div class="layer-card">
+                    <div class="layer-number">03</div>
+                    <h4>生態系統多樣性</h4>
+                    <p>不同類型生態系統（森林、濕地、珊瑚礁、草原等）的多樣性，每種生態系統都提供獨特的生態服務功能。</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="callout callout-info">
+            <div class="callout-icon">💡</div>
+            <div class="callout-content">
+                <h4>你知道嗎？</h4>
+                <p>蜜蜂等授粉昆蟲為全球 <strong>75%</strong> 的農作物提供授粉服務，但全球蜜蜂数量正急劇下降。如果蜜蜂消失，人類的食物種類將減少三分之一以上。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Pollution Section ===== -->
+<section id="pollution" class="section section-tinted">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">主題三</span>
+            <h2 class="section-title">污染防治</h2>
+            <p class="section-desc">污染是影響人類健康和生態環境的最直接環境問題之一。</p>
+        </div>
+
+        <div class="pollution-types">
+            <div class="pollution-card pollution-air">
+                <div class="pollution-icon">💨</div>
+                <h3>空氣污染</h3>
+                <div class="pollution-stats">
+                    <div class="pstat"><span class="pstat-value">700萬</span><span class="pstat-label">每年因空氣污染過早死亡</span></div>
+                </div>
+                <p>PM2.5、二氧化硫、氮氧化物等污染物來自工業排放、車輛尾氣和燃煤發電。空氣污染導致呼吸道疾病、心血管疾病，影響全球 <strong>99%</strong> 的人口呼吸著不達標的空氣。</p>
+                <ul class="pollution-list">
+                    <li>來源：工業排放、交通尾氣、燃煤</li>
+                    <li>影響：呼吸道疾病、酸雨、溫室效應</li>
+                    <li>對策：清潔能源、電動交通、排放標準</li>
+                </ul>
+            </div>
+
+            <div class="pollution-card pollution-water">
+                <div class="pollution-icon">💧</div>
+                <h3>水體污染</h3>
+                <div class="pollution-stats">
+                    <div class="pstat"><span class="pstat-value">20億</span><span class="pstat-label">人無法獲得安全飲用水</span></div>
+                </div>
+                <p>工業廢水、農業化肥、生活污水和塑料垃圾持續污染河流、湖泊和海洋。每年約有 <strong>800萬噸</strong> 塑料垃圾流入海洋，嚴重威脅海洋生態。</p>
+                <ul class="pollution-list">
+                    <li>來源：工業廢水、農藥化肥、塑料垃圾</li>
+                    <li>影響：水生態破壞、飲用水危機、微塑料</li>
+                    <li>對策：污水處理、減塑行動、水源保護</li>
+                </ul>
+            </div>
+
+            <div class="pollution-card pollution-soil">
+                <div class="pollution-icon">🌱</div>
+                <h3>土壤污染</h3>
+                <div class="pollution-stats">
+                    <div class="pstat"><span class="pstat-value">33%</span><span class="pstat-label">全球土壤已退化</span></div>
+                </div>
+                <p>過度使用農藥化肥、工業廢棄物不當處置和採礦活動導致土壤重金屬和化學污染，威脅糧食安全和地下水。</p>
+                <ul class="pollution-list">
+                    <li>來源：農藥化肥、工業廢棄物、採礦</li>
+                    <li>影響：糧食安全、地下水污染、土地荒漠化</li>
+                    <li>對策：有機農業、廢棄物管理、土壤修復</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="plastic-timeline">
+            <h3 class="impact-title">塑料的旅程：一個塑料瓶的環境足跡</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-stage">生產</span>
+                        <p>生產一個塑料瓶需消耗 <strong>0.25升</strong> 石油和 <strong>3升</strong> 水，排放 <strong>0.1kg</strong> CO₂</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-stage">使用</span>
+                        <p>平均使用時間僅 <strong>15分鐘</strong>，之後即被丟棄</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-stage">丟棄</span>
+                        <p>全球每年丟棄 <strong>5,000億個</strong> 塑料瓶，僅 <strong>9%</strong> 被回收</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-stage">分解</span>
+                        <p>完全降解需要 <strong>450年</strong>，期間持續釋放微塑料污染環境</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-stage">影響</span>
+                        <p>微塑料進入食物鏈，最終被人類攝入——每人每週平均攝入約 <strong>5克</strong> 微塑料</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Sustainability Section ===== -->
+<section id="sustainability" class="section section-light">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">主題四</span>
+            <h2 class="section-title">可持續發展</h2>
+            <p class="section-desc">可持續發展是「既滿足當代人的需求，又不損害後代人滿足其需求能力」的發展模式。</p>
+        </div>
+
+        <div class="content-block">
+            <div class="content-text">
+                <h3>什麼是可持續發展？</h3>
+                <p>可持續發展概念最早在 1987 年聯合國《我們的共同未來》報告中提出，其核心是實現<strong>經濟發展、社會包容和環境保護</strong>三者的平衡。</p>
+                <p>2015年，聯合國通過了<strong>2030年可持續發展議程</strong>，提出了17項可持續發展目標（SDGs），涵蓋消除貧困、清潔能源、氣候行動、水下生物、陸地生物等，旨在到2030年實現一個更公平、更綠色的世界。</p>
+                <p>循環經濟是可持續發展的重要實踐模式。與傳統的「取用—製造—丟棄」線性經濟不同，循環經濟強調<strong>減量、再利用、再循環</strong>（3R原則），最大限度地減少資源浪費和環境影響。</p>
+            </div>
+            <div class="content-visual">
+                <div class="info-card">
+                    <div class="info-card-header" style="background: linear-gradient(135deg, #16a085, #0e6655);">
+                        <span>♻️ 3R 原則</span>
+                    </div>
+                    <div class="info-card-body">
+                        <div class="principle-item">
+                            <span class="principle-letter">R1</span>
+                            <div>
+                                <strong>Reduce 減量</strong>
+                                <p>從源頭減少資源消耗和廢棄物產生</p>
+                            </div>
+                        </div>
+                        <div class="principle-item">
+                            <span class="principle-letter">R2</span>
+                            <div>
+                                <strong>Reuse 再利用</strong>
+                                <p>重複使用物品，延長使用壽命</p>
+                            </div>
+                        </div>
+                        <div class="principle-item">
+                            <span class="principle-letter">R3</span>
+                            <div>
+                                <strong>Recycle 再循環</strong>
+                                <p>將廢棄物轉化為新資源，形成閉環</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sdg-grid">
+            <h3 class="impact-title">與環境相關的可持續發展目標</h3>
+            <div class="sdg-cards">
+                <div class="sdg-card" style="border-top-color: #FDAD00;">
+                    <span class="sdg-num">7</span>
+                    <h4>清潔能源</h4>
+                    <p>確保人人獲得負擔得起、可靠和可持續的現代能源</p>
+                </div>
+                <div class="sdg-card" style="border-top-color: #C5192D;">
+                    <span class="sdg-num">12</span>
+                    <h4>負責任消費</h4>
+                    <p>確保可持續的消費和生產模式</p>
+                </div>
+                <div class="sdg-card" style="border-top-color: #3F7E44;">
+                    <span class="sdg-num">13</span>
+                    <h4>氣候行動</h4>
+                    <p>採取緊急行動應對氣候變化及其影響</p>
+                </div>
+                <div class="sdg-card" style="border-top-color: #0A97D9;">
+                    <span class="sdg-num">14</span>
+                    <h4>水下生物</h4>
+                    <p>保護和可持續利用海洋和海洋資源</p>
+                </div>
+                <div class="sdg-card" style="border-top-color: #56C02B;">
+                    <span class="sdg-num">15</span>
+                    <h4>陸地生物</h4>
+                    <p>保護、恢復和促進可持續利用陸地生態系統</p>
+                </div>
+                <div class="sdg-card" style="border-top-color: #0C5DA5;">
+                    <span class="sdg-num">11</span>
+                    <h4>可持續城市</h4>
+                    <p>建設包容、安全、有韌性和可持續的城市</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Actions Section ===== -->
+<section id="actions" class="section section-dark">
+    <div class="container">
+        <div class="section-header section-header-light">
+            <span class="section-tag section-tag-light">立即行動</span>
+            <h2 class="section-title">每個人都能做出的改變</h2>
+            <p class="section-desc">環保不需要等待，從日常小事開始，每個行動都在改變世界。</p>
+        </div>
+
+        <div class="actions-grid">
+            <div class="action-card">
+                <div class="action-day">Day 1</div>
+                <div class="action-icon">🚲</div>
+                <h3>綠色出行</h3>
+                <p>選擇步行、騎自行車或搭乘公共交通，減少私家車使用。每人每年可減少約 <strong>2.6噸</strong> CO₂排放。</p>
+                <span class="action-impact">影響：★★★★★</span>
+            </div>
+            <div class="action-card">
+                <div class="action-day">Day 2</div>
+                <div class="action-icon">🥤</div>
+                <h3>自帶水杯</h3>
+                <p>隨身攜帶可重複使用的水杯和購物袋，一年可減少使用 <strong>167個</strong> 塑料瓶和數百個塑料袋。</p>
+                <span class="action-impact">影響：★★★★☆</span>
+            </div>
+            <div class="action-card">
+                <div class="action-day">Day 3</div>
+                <div class="action-icon">💡</div>
+                <h3>節約用電</h3>
+                <p>更換LED燈泡、隨手關燈、合理使用空調。將空調溫度調高1°C，每年可節省約 <strong>7-10%</strong> 的電量。</p>
+                <span class="action-impact">影響：★★★★☆</span>
+            </div>
+            <div class="action-card">
+                <div class="action-day">Day 4</div>
+                <div class="action-icon">🥗</div>
+                <h3>減少肉食</h3>
+                <p>每週一天素食可減少約 <strong>0.5噸</strong> 年碳排放。畜牧業佔全球溫室氣體排放的 <strong>14.5%</strong>。</p>
+                <span class="action-impact">影響：★★★★★</span>
+            </div>
+            <div class="action-card">
+                <div class="action-day">Day 5</div>
+                <div class="action-icon">♻️</div>
+                <h3>垃圾分類</h3>
+                <p>正確分類垃圾可使回收率提升至 <strong>60%以上</strong>。廚餘垃圾堆肥可減少甲烷排放並製作天然肥料。</p>
+                <span class="action-impact">影響：★★★★☆</span>
+            </div>
+            <div class="action-card">
+                <div class="action-day">Day 6</div>
+                <div class="action-icon">🛍️</div>
+                <h3>理性消費</h3>
+                <p>減少衝動購物，選擇環保產品，支持可持續品牌。每減少一件快時尚服裝，可節省約 <strong>7,000升</strong> 水。</p>
+                <span class="action-impact">影響：★★★★☆</span>
+            </div>
+            <div class="action-card">
+                <div class="action-day">Day 7</div>
+                <div class="action-icon">🌱</div>
+                <h3>植樹綠化</h3>
+                <p>一棵成年樹每年可吸收約 <strong>22公斤</strong> CO₂，釋放足夠兩人呼吸的氧氣。參與社區植樹活動。</p>
+                <span class="action-impact">影響：★★★★★</span>
+            </div>
+            <div class="action-card">
+                <div class="action-day">Day 8</div>
+                <div class="action-icon">📢</div>
+                <h3>傳播知識</h3>
+                <p>與家人朋友分享環保知識，參與環保志願活動。集體行動的力量遠超個人努力。</p>
+                <span class="action-impact">影響：★★★★★</span>
+            </div>
+        </div>
+
+        <div class="carbon-calculator">
+            <h3>碳足跡小計算器</h3>
+            <p class="calc-desc">回答以下問題，瞭解你的日常碳足跡</p>
+            <div class="calc-form">
+                <div class="calc-item">
+                    <label>你每天的通勤方式？</label>
+                    <select id="commute" class="calc-select">
+                        <option value="0.2">步行/自行車</option>
+                        <option value="1.5">公共交通</option>
+                        <option value="5.0">電動車</option>
+                        <option value="8.0">燃油汽車</option>
+                    </select>
+                </div>
+                <div class="calc-item">
+                    <label>你每週吃肉的天數？</label>
+                    <select id="meat" class="calc-select">
+                        <option value="0.5">0-1天</option>
+                        <option value="2.0">2-3天</option>
+                        <option value="4.0">4-5天</option>
+                        <option value="6.0">6-7天</option>
+                    </select>
+                </div>
+                <div class="calc-item">
+                    <label>你的月度電費大約？</label>
+                    <select id="electric" class="calc-select">
+                        <option value="1.0">低（<200元）</option>
+                        <option value="2.5">中（200-500元）</option>
+                        <option value="4.0">高（500-1000元）</option>
+                        <option value="6.0">很高（>1000元）</option>
+                    </select>
+                </div>
+                <div class="calc-item">
+                    <label>你使用一次性塑料的頻率？</label>
+                    <select id="plastic" class="calc-select">
+                        <option value="0.3">很少</option>
+                        <option value="1.0">偶爾</option>
+                        <option value="2.0">經常</option>
+                        <option value="3.0">每天</option>
+                    </select>
+                </div>
+                <button class="btn btn-primary calc-btn" onclick="calculateCarbon()">計算碳足跡</button>
+                <div class="calc-result" id="calcResult"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Quiz Section ===== -->
+<section id="quiz" class="section section-light">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">知識測驗</span>
+            <h2 class="section-title">測測你的環保知識</h2>
+            <p class="section-desc">回答以下問題，看看你對環保知識掌握了多少！</p>
+        </div>
+
+        <div class="quiz-container" id="quizContainer">
+            <div class="quiz-progress">
+                <span class="quiz-progress-text" id="progressText">第 1 題 / 共 5 題</span>
+                <div class="quiz-progress-bar"><div class="quiz-progress-fill" id="progressFill"></div></div>
+            </div>
+
+            <div class="quiz-question" id="quizQuestion"></div>
+            <div class="quiz-options" id="quizOptions"></div>
+
+            <div class="quiz-feedback" id="quizFeedback"></div>
+            <div class="quiz-nav">
+                <button class="btn btn-outline quiz-btn" id="nextBtn" onclick="nextQuestion()" disabled>下一題 →</button>
+            </div>
+
+            <div class="quiz-result-page" id="quizResultPage" style="display:none;">
+                <div class="quiz-score-circle" id="scoreCircle"></div>
+                <h3 id="scoreTitle"></h3>
+                <p id="scoreMessage"></p>
+                <button class="btn btn-primary" onclick="restartQuiz()">再試一次</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col footer-brand">
+                <h3>🌍 守護地球</h3>
+                <p>一個致力於提高公眾環保意識的知識平台。我們相信，知識改變觀念，行動改變世界。</p>
+                <p class="footer-slogan">"守護綠水青山 · 共建美好家園"</p>
+            </div>
+            <div class="footer-col">
+                <h4>環保知識</h4>
+                <ul>
+                    <li><a href="#climate">氣候變化</a></li>
+                    <li><a href="#biodiversity">生物多樣性</a></li>
+                    <li><a href="#pollution">污染防治</a></li>
+                    <li><a href="#sustainability">可持續發展</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>立即行動</h4>
+                <ul>
+                    <li><a href="#actions">行動指南</a></li>
+                    <li><a href="#quiz">知識測驗</a></li>
+                    <li><a href="#hero">碳足跡計算</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>參考資源</h4>
+                <ul>
+                    <li><a href="https://www.ipcc.ch/" target="_blank" rel="noopener">IPCC 氣候變化報告</a></li>
+                    <li><a href="https://www.un.org/sustainabledevelopment/" target="_blank" rel="noopener">UN SDGs</a></li>
+                    <li><a href="https://www.wwf.org/" target="_blank" rel="noopener">WWF 世界自然基金會</a></li>
+                    <li><a href="https://www.unep.org/" target="_blank" rel="noopener">UNEP 環境署</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 守護地球 · 環保知識平台 | Protect Our Planet · For a Better Tomorrow</p>
+            <p class="footer-note">本網站旨在傳播環保知識，提高公眾環保意識。數據來源：IPCC、UNEP、WWF 等國際組織公開報告。</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
